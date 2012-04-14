@@ -1,3 +1,7 @@
+import com.typesafe.startscript.StartScriptPlugin
+
+seq(StartScriptPlugin.startScriptForClassesSettings: _*)
+
 organization := "com.github.ssmylh"
 
 name := "heroku-unfiltered-sample"
